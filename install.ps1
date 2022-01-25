@@ -279,7 +279,6 @@ Copy-Item -LiteralPath $patchFiles -Destination "$spotifyDirectory"
       Set-Content -LiteralPath $xpuiUnpackedPath -Value $xpuiContents
     }
   }
-}
 else
 {
   Write-Host "Won't remove ad placeholder and upgrade button.`n"
